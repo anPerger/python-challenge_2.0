@@ -3,7 +3,7 @@ import os
 import operator
 import sys
 
-csvpath = os.path.join("Resources", "election_data.csv")
+csvpath = os.path.join("resources", "election_data.csv")
 
 stdoutOrigin=sys.stdout # Method I found on stackoverflow to export results
 sys.stdout = open("log.txt", "w") # to a .txt file
