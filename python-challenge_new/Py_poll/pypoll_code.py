@@ -41,7 +41,8 @@ print(f"Total votes: {total_votes}")
 print("----------------------------")
    
 print(vote_tally)
-print(pct_tally)
+print("----------------------------")
+print(f"Percent tally: {pct_tally}")
 print("----------------------------")
 print("Winner: ", winner)
 
